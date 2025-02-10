@@ -2,7 +2,6 @@
 version: "3"
 services:
     zomato:
-       container_name: docker01
        image: saikumar1817/repo10:v5
        ports:
-        - "8855:3000"
+        - "3000"
